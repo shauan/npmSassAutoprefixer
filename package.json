@@ -1,0 +1,17 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass --source-map true --include-paths node_modules born/scss --output born/static/css ",
+    "watch:css": "nodemon -e scss --watch born/scss --exec npm run build:css",
+    "postbuild:css": "postcss --replace \"born/static/css/**/*.css\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "cssnano-cli": "^1.0.5",
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.2",
+    "postcss-cli": "^5.0.0"
+  }
+}

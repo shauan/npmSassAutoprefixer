@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background: blue; }
+
+h2 {
+  color: blue; }
+/*# sourceMappingURL=main.css.map */
+
